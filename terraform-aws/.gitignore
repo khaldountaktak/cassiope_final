@@ -1,0 +1,28 @@
+# Terraform state files and backups
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform variable definitions (if you create any)
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+
+# Terraform directories
+.terraform/
+
+# AWS CLI credentials and Kubernetes configs
+admin.conf
+
+# Shell history and logs
+*.log
+*.bak
+
+# Editor/IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
