@@ -45,8 +45,11 @@ Projet de transformation d'une architecture Java traditionnelle en une architect
    terraform apply
    ```
 
-4. **Lancer les services avec Airflow** :
-   ```bash
-   cd airflow
-   docker-compose up -d
-   ```
+### 4. Utiliser Apache Airflow pour automatiser les workflows de migration
+
+Commencez par installer Apache Airflow :
+
+```bash
+cd airflow
+```
+Une fois lancé, vous pouvez accéder à l'interface web d'Airflow pour exécuter et planifier automatiquement des workflows de migration définis dans les DAGs.
